@@ -5,56 +5,109 @@
         <meta name="viewport"  content="width=device_width, initial-scale=1.0"> 
         <title>Madhavi's Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
 
     </head>
     <body>
         <header>
             <div class="container">
-                <h1>MADHAVI</h1>
+                <div class="logo">
+                    <h2 class="logo-heading">Madhavi Chaudhary<span>'s Protfolio<span></h2>
+                </div>
                 <nav>
-                    <ul>
-                        <li><a href="/about.html">About</a></li>
-                        <li><a href="/projects.html">Projects</a></li>
-                        <li><a href="/contact.html">Contact</a></li>
-                    </ul>
+                    
+                    <div class="menu">
+                        <ul>
+                            <li class="menu_item"><a class="link" href="#About">About</a></li>
+                            <li class="menu_item"><a class="link" href="#Projects">Projects</a></li>
+                            <li class="menu_item"><a class="link" href="#Expeiance">Expeiance</a></li>
+                            <li class="menu_item"><a class="link" href="#Contact">Contact</a></li>
+                           
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </header>  
         
         
         <main>
+            <!-- <section id="Home" class="hero">
+                <div>
+                    <h3> My name is</h3>
+                    <h1>Madhavi Chaudhary</h1>
+                    <h4>I am a fresher</h4>
+                </div> -->
             <section id="About" class="container">
                 <h2>Just Know me More..</h2>
-                <p>My Name is Madhavi Chaudhary , i am from Mehsana and i am currently in the final year student at Dharmsinh Desai University and i am trainee @Tatvasot</p>
+                <p>My Name is Madhavi Chaudhary , i am from Mehsana. <br>
+                    I am currently in the final year student at Dharmsinh Desai University.<br>
+                    I am trainee @Tatvasot.<br>
+                    and had done DSA, DBMS, DAA.  
+                    I have learn some techstack during my Acadamics Like:
+                    <div class="tech-stack">
+                        <div class="projects_grid">
+                          <i class="material-icons">Java</i>
+
+                        </div>
+                        <div class="tech-item">
+                          <i class="material-icons">Python</i>
+                          
+                        </div>
+                        <div class="tech-item">
+                          <i class="material-icons">c++</i>
+                         
+                        </div>
+                      </div>
+                      
+                    
+                </p>
             </section>
 
             <section id="Projects" class="container">
                 <h2>My Projects</h2>
-
+                <!-- New wrapper for the cards -->
+                <div class="projects_grid">
                     <div class="projects_card">
                         <h3>Patient Pal</h3>
-                        <p>This is for the People who are living alone or with theri families , they can allote the care tacker at their home for the time period as they want.</p>
-                        <a href="#">View the Project </a>
+                        <p>This is for people living alone. They can allot a caretaker at their home for the time period they want.</p>
+                        <a href="https://share.google/g1pFs6DlDYCTRNibH" class="btn">View Project</a>
+                    </div>
+            
+                    <div class="projects_card">
+                        <h3>Unifyx</h3>
+                        <p>An Android App where Contractors, Workers, and Home-owners connect. Users can raise bids on home projects.</p>
+                        <a href="https://share.google/1r4ywora3P2qEZGge" class="btn">View Project</a>
                     </div>
 
                     <div class="projects_card">
-                        <h3>Unifyx</h3>
-                        <p>This Android App is the Plateform where the Contractor, Worker and Home-owner combined. As per the Requirement the Contractor and the Home-owner can get the contractor and the worker. worker and contractor can rais the bid on the post of home-owner. </p>
-                        <a href="#">View the Project </a>
+                        <h3>Shopping App</h3>
+                        <p>This is the Ecommerce app where you can buy the wrist watches and pay there.</p>
+                        <a href="https://github.com/ChaudharyMadhavi/Shopping_app" class="btn">View Project</a>
                     </div>
+                </div>
             </section>
 
-            <section id="content" class="container">
-                <h2>Get in Touch</h2>
-                <p>Email: <a href="#">email</a> </p>
-                <p>LinkedIn: <a href="#">linkedin</a> </p>
+            <section id="Experiance" class="container">
+                <h2>My Experiance</h2>
+                <p> I had done the internship @MusterDekho and gain hands on experiance on the Dart and Flutter.<br>
+                    At DDU i am the women cell cordinator.<br>
+                    Got the 4th Prize at DU-hacks.<br>
+                    
+                </p>
             </section>
+
+            
         </main>    
 
         <footer>
-                <div class="container">
-                    <p>footer</p>
-                </div>
+            <section id="Contact" class="container">
+                <h2>Get in Touch</h2>
+                <i class="material-icons">mailbox</i><a href="#"> </a> 
+                <i class="material-icons">linkedin</i><a href="#"></a>
+                <i class="material-icons">github</i><a href="#"></a>
+            </section>
+                
         </footer>
 
     </body>
