@@ -18,6 +18,9 @@ body {
     padding: 40px 0;
 }
 
+.foot-step {
+    border-left:none;
+}
 
 header {
     background: #ffffff;
@@ -141,36 +144,79 @@ i{
     justify-content: space-between;
 }
 /* Footer */
-/* footer {
+footer {
     text-align: center;
-    padding: 40px;
+    padding: 50px;
     background: #333;
     color: white;
-} */
+}
 
 .tech-stack {
     display: flex;
-    gap: 20px;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0;
   }
   
   .tech-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    margin-top: 25px;
+    background: #fff;
+    padding: 20px;
+    /* flex: 1; Makes cards equal width */
+    width: 130px;
+    height: 105px;
+    display:inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+   
+    overflow: hidden;
+  }
+
+  .tech-item:hover{
+    transform: translateY(-5px);
+    transition: transform 0.2s;
+    box-shadow: #555;
+    color:blue; 
+
   }
   
   .tech-item i {
-    font-size: 48px; /* Adjust size as needed */
-    color: #333; /* Default color */
-    /* Specific colors for branding (optional) */
-    /* .fa-html5 { color: #E34F26; } */
-    /* .fa-css3-alt { color: #1572B6; } */
-    /* .fa-js-square { color: #F7DF1E; } */
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    font-size: 55px; 
+    /* font-weight: 300; */
+    padding-left : 15px;
+    padding-top: 5px;
+    padding-bottom:15px;
+    padding: right 15px;
+    color: #333;
+  
   }
   
-  .tech-item span {
-    margin-top: 5px;
-    font-size: 14px;
+ main span {
+    display: flex;
+    
+    justify-content:center;
+    padding-top: 35px;
+    align-content: center;
+    /* padding-right: 30px; */
+  
+  }
+
+
+  footer i{
+    padding-top: 20px;
+    color:whitesmoke;
   }
   
+  footer h2{
+    border: none;
+  }
+
+  footer span{
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+  }
